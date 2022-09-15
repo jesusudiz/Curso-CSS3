@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(148, 167, 177);
+}
+
+.notebook {
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(255, 255, 255), 20px 20px rgb(0, 0, 0.13);
+    padding-top: 0.1px;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+    margin-top: 30px;
+    margin-left: 5px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+    position: relative;
+    padding-top: 0.1px;
+}
+
+.line {
+    position: inherit;
+    top: 50%;
+    left: -20px;
+    background-color: #319073;
+    color: #319073;
+    width: 30px;
+    height:4px;
+    border-radius: 10px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+    
+}
